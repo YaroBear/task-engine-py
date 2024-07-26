@@ -1,4 +1,4 @@
 tenant_info:
-  entity_name: NewEntity
-  entity_type: materialized_view
-  tenant_url: https://api.example.com/tenants
+  tenant_name: dev3
+  tenant_location: Central US
+  config_api_url: https://httpbin.org/post

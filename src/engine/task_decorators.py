@@ -25,6 +25,5 @@ def retries(max_retries):
                     task = args[0]
                     if not task.retry_handler(e) or attempt == max_retries:
                         raise e
-                    time.sleep(1)  # Simple backoff strategy
         return wrapper
     return decorator
